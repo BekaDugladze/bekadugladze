@@ -1,0 +1,54 @@
+header{
+    border-bottom: 3px solid #0B4276;
+    background: #FFF;
+    width: 100%;
+    padding: 2vh 0;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #0B4276;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+header ul li a:hover{
+    text-decoration: underline solid #0B4276;
+    color: #0B4276;
+    transition: 0.6s;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+
+@media screen and (min-width: 108px) and (max-width: 600px) {
+    #header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header ul{
+        width: 100%;
+        margin: 0;
+        padding: 2vh 0;
+    }
+    header ul li a{
+        font-size: 12px;
+        margin: 0;
+    }
+    header ul {
+        width: 100%;
+    }
+  }

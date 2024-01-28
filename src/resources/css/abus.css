@@ -1,0 +1,126 @@
+#abus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.p{
+    width: 100%;
+    margin: 0 3vw;
+    padding: 1vh 2vw;
+    border-radius: 45px;
+    border: 1px solid #0B4276;
+}
+#abus p{
+    max-height: 35vh;
+    overflow-y: auto;
+    color: #0B4276;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+#abus div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#abus img{
+    width: 200px;
+    border-radius: 45px;
+    height: auto;
+    max-width: 40%;
+}
+h1{
+    color: #0B4276;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 6vh 0;
+}
+#edu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%
+}
+.edu-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #0B4276;
+    border-radius: 25px;
+    width: 60%;
+    margin: 2vh 0;
+}
+.edu-div div{
+    width: 100%;
+}
+.edu-div h1{
+    margin: 0;
+    font-size: 18px;
+    padding: 1vh 0;
+    width: 100%;
+    color: #fff;
+    background: #0B4276;
+    border-radius: 0 24px 0 0;
+}
+.edu-div h2{
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Mukta', sans-serif;
+    font-style: italic;
+    padding: 1vh 0;
+    width: 100%;
+    color: #0B4276;
+    text-align: center;
+}
+.edu-div a{
+    width: 60%;
+    height: auto;
+}
+.edu-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 24px 0 0 24px;
+}
+.edu-div p{
+    color: #0B4276;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0 2vw;
+}
+
+@media screen and (min-width: 108px) and (max-width: 600px) {
+    #abus{
+        flex-direction: column-reverse;
+    }
+    #abus img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    #abus div{
+        width: 80%;
+        margin: 1vh 0;
+    }
+    .edu-div{
+        flex-direction: column;
+        width: 80%;
+    }
+    .edu-div a{
+        width: 100%;
+    }
+    .edu-div img{
+        border-radius: 24px 24px 0 0;
+    }
+    .edu-div h1{
+        border-radius: 0;
+    }
+  }
